@@ -2,13 +2,13 @@ require 'rake'
 
 Gem::Specification.new do |s|
   s.name = %q{ar-extensions}
-  s.version = "0.9.2"
+  s.version = "0.9.2.1"
   s.date = %q{2009-04-20}
   s.summary = %q{Extends ActiveRecord functionality.}
   s.email = %q{zach.dennis@gmail.com}
   s.homepage = %q{http://www.continuousthinking.com/tags/arext}
   s.rubyforge_project = %q{arext}
-  s.description = %q{Extends ActiveRecord functionality by adding better finder/query support, as well as supporting mass data import, foreign key, CSV and temporary tables}
+  s.description = %q{Extends ActiveRecord functionality by adding better finder/query support, as well as supporting mass data import, foreign key, CSV and temporary tables. This version can import models that use the composite-primary-keys plugin}
   s.require_path = 'lib'
   s.has_rdoc = true
   s.authors = ["Zach Dennis", "Mark Van Holstyn", "Blythe Dunham"]
